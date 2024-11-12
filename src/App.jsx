@@ -17,8 +17,8 @@ function App() {
  
   return (
     <>
-      <div onClick={handleDrop}>
-        <Button btnName='Click' className={'mx-60 mt-20 text-white px-10 py-5 bg-teal-800'} />
+      <div className='mx-60 mt-20 ' onClick={handleDrop}>
+        <Button btnName='Click' className={'text-white px-10 py-5 bg-teal-800'} />
         <div className="bg-teal-300 text-white hidden ml-48 w-60" ref={dropRef}>
           <Menu menuTxt='Home' />
           <Menu menuTxt='about' />
